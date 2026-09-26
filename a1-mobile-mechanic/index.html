@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--
+  HOW TO EDIT THIS PAGE
+  PRICES:  search for  Your price  and replace each one, e.g.  From $60
+  PHONE:   search for  (831) 431-9803  and  +18314319803
+  COLOR:   change --accent in the :root block below
+-->
+<title>A1 Mobile Mechanic | Mobile Mechanic in Soquel and Santa Cruz</title>
+<meta name="description" content="Mobile car repair in Soquel and Santa Cruz County. We come to your home or work. 5.0 stars on Google.">
+<meta property="og:title" content="A1 Mobile Mechanic">
+<meta property="og:description" content="Mobile car repair in Soquel and Santa Cruz County. We come to your home or work. 5.0 stars on Google.">
+<meta property="og:image" content="https://santacruzwebworks.github.io/demos/a1-mobile-mechanic/preview.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://santacruzwebworks.github.io/demos/a1-mobile-mechanic/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --panel:#F1F2F4; --card:#FFFFFF; --text:#1A1C20; --muted:#595F69;
+  --line:#DDE0E5; --accent:#C8312B; --on-accent:#FFFFFF; --mark:#F2B53A;
+  --display:'Archivo Narrow','Arial Narrow',sans-serif; --body:'Archivo',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--display);margin:0}
+h1{font-size:clamp(38px,8vw,72px);line-height:1.04;font-weight:700;letter-spacing:-0.01em}
+h2{font-size:clamp(28px,5vw,44px);line-height:1.1;font-weight:700;letter-spacing:-0.01em}
+.kicker{font-size:15px;font-weight:600;color:var(--accent);margin:0}
+.muted{color:var(--muted)}
+
+.site-header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.logo{font-family:var(--display);font-weight:700;font-size:19px;color:var(--text);text-decoration:none;line-height:1.1}
+.logo small{display:block;font-family:var(--body);font-weight:500;font-size:12.5px;color:var(--muted)}
+.header-call{display:flex;align-items:center;gap:8px;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:700;font-size:15px;height:44px;padding:0 16px;border-radius:6px;white-space:nowrap}
+.header-call .num{display:none}
+.nav{display:none}
+
+.btn{display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 26px;border-radius:6px;font-family:var(--body);font-weight:700;font-size:17px;text-decoration:none;cursor:pointer;border:0}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-ghost{border:1.5px solid var(--line);color:var(--text);background:transparent}
+
+.hero{padding:40px 0 56px}
+.hero .wrap{display:grid;gap:36px}
+.hero-copy{display:flex;flex-direction:column;gap:20px}
+.hero-copy p.lead{margin:0;font-size:18.5px;color:var(--muted);max-width:32em}
+.hero-actions{display:flex;flex-direction:column;gap:12px}
+.rating{display:flex;align-items:center;gap:10px;font-size:15px;color:var(--muted);margin:0}
+.stars{color:var(--mark);letter-spacing:2px}
+
+.log{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:6px;padding:26px 26px 20px}
+.log h2{font-size:24px;margin-bottom:16px}
+.log ol{list-style:none;margin:0;padding:0;position:relative}
+.log li{position:relative;padding:0 0 20px 30px}
+.log li::before{content:"";position:absolute;left:5px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.log li:not(:last-child)::after{content:"";position:absolute;left:9px;top:20px;bottom:2px;width:2px;background:var(--line)}
+.log b{display:block;font-size:18px}
+.log span{color:var(--muted);font-size:15.5px}
+.log p{margin:0;font-size:13.5px;color:var(--muted)}
+
+section{padding:64px 0}
+.alt{background:var(--panel)}
+.section-head{display:flex;flex-direction:column;gap:10px;margin-bottom:30px;max-width:40em}
+.section-head p{margin:0;color:var(--muted)}
+
+.services{display:grid;gap:14px}
+.service{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.service-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.service h3{font-size:21px;line-height:1.2;font-weight:700}
+.price{font-weight:700;font-size:15px;color:var(--accent);white-space:nowrap}
+.service p{margin:0;color:var(--muted);font-size:16px}
+
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:26px}
+.step{display:flex;gap:16px}
+.step-num{flex:none;width:42px;height:42px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center;font-weight:800;font-family:var(--display)}
+.step h3{font-size:19px;margin-bottom:2px}
+.step p{margin:0;color:var(--muted);font-size:16px}
+
+.reviews{display:grid;gap:14px}
+.review{margin:0;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:26px;display:flex;flex-direction:column;gap:14px}
+.review blockquote{margin:0;font-size:18px;line-height:1.55}
+.review figcaption{font-size:14px;color:var(--muted);font-weight:600}
+.reviews-link{display:inline-block;margin-top:20px;font-weight:700}
+
+.booking{display:grid;gap:40px}
+.form{display:flex;flex-direction:column;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-weight:600;font-size:15px}
+.field input,.field select{height:52px;padding:0 14px;font:inherit;font-size:17px;color:var(--text);background:var(--bg);border:1.5px solid var(--line);border-radius:4px;width:100%}
+.form-note{margin:0;font-size:14.5px;color:var(--muted)}
+.form-error{margin:0;color:#C0392B;font-size:15px;min-height:1em}
+.info{display:flex;flex-direction:column;gap:22px}
+.info h3{font-size:18px;margin-bottom:4px}
+.info p{margin:0;color:var(--muted)}
+.hours{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 18px;color:var(--muted)}
+.hours dt{color:var(--text);font-weight:600}
+.hours dd{margin:0}
+footer{border-top:1px solid var(--line);padding:28px 0 32px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-direction:column;gap:4px}
+footer a{color:var(--muted)}
+
+@media (min-width:640px){
+  .hero-actions{flex-direction:row}
+  .services,.reviews{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (min-width:920px){
+  .header-call .num{display:inline}
+  .nav{display:flex;gap:26px}
+  .nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:15px}
+  .nav a:hover{color:var(--text)}
+  .hero{padding:72px 0 88px}
+  .hero .wrap{grid-template-columns:1.15fr 1fr;align-items:center;gap:56px}
+  section{padding:96px 0}
+  .services{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .service-top{flex-direction:column;gap:4px}
+  .steps{grid-template-columns:repeat(3,1fr);gap:36px}
+  .reviews{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .booking{grid-template-columns:1.2fr 1fr;gap:64px;align-items:start}
+  .form{padding:32px}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#top">A1 Mobile Mechanic<small>Car repair at your door</small></a>
+    <nav class="nav" aria-label="Main"><a href="#services">Services</a><a href="#how">How it works</a><a href="#reviews">Reviews</a><a href="#book">Book</a></nav>
+    <a class="header-call" href="tel:+18314319803" aria-label="Call (831) 431-9803">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+      Call <span class="num">(831) 431-9803</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="kicker">Mobile car repair in Soquel and Santa Cruz County</p>
+        <h1>Car trouble? The mechanic comes to you.</h1>
+        <p class="lead">Skip the tow and the waiting room. Adam and his techs diagnose and fix your car in your driveway, your work lot or wherever it broke down, with the price explained before any work starts.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#book">Request a repair</a>
+          <a class="btn btn-ghost" href="tel:+18314319803">Call (831) 431-9803</a>
+        </div>
+        <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span>5.0 on Google from 24 reviews</p>
+      </div>
+      <aside class="log" aria-label="One customer's morning, from their Google review"><h2>One customer&rsquo;s morning</h2><ol><li><b>Belt fails</b><span>Car won&rsquo;t go anywhere</span></li><li><b>Calls A1</b><span>Adam makes time the same morning</span></li><li><b>Fixed in the driveway</b><span>New serpentine belt, related parts checked and tested</span></li></ol><p>From a Google review.</p></aside>
+    </div>
+  </section>
+
+  <section id="services" class="alt">
+    <div class="wrap">
+      <div class="section-head"><h2>What Adam fixes</h2><p>Common repairs and diagnostics, done on site.</p></div>
+      <div class="services">
+      <article class="service">
+        <div class="service-top"><h3>Diagnostics</h3><div class="price">Your price</div></div>
+        <p>Warning lights, strange noises and cars that won&#x27;t start.</p>
+      </article>
+      <article class="service">
+        <div class="service-top"><h3>Belts and batteries</h3><div class="price">Your price</div></div>
+        <p>Serpentine belts, batteries and charging problems.</p>
+      </article>
+      <article class="service">
+        <div class="service-top"><h3>Maintenance</h3><div class="price">Your price</div></div>
+        <p>Oil changes and routine service without the shop visit.</p>
+      </article>
+      <article class="service">
+        <div class="service-top"><h3>Roadside help</h3><div class="price">Your price</div></div>
+        <p>Stuck away from home? Call and get options fast.</p>
+      </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head"><h2>How it works</h2></div>
+      <ol class="steps">
+      <li class="step"><span class="step-num">1</span><div><h3>Call or text</h3><p>Describe what&#x27;s going on with the car and where it is.</p></div></li>
+      <li class="step"><span class="step-num">2</span><div><h3>Get a price up front</h3><p>Adam explains the problem and your options before starting.</p></div></li>
+      <li class="step"><span class="step-num">3</span><div><h3>Fixed where it sits</h3><p>The repair happens at your home, work or roadside.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="reviews" class="alt">
+    <div class="wrap">
+      <div class="section-head"><h2>What customers say</h2></div>
+      <div class="reviews">
+      <figure class="review"><blockquote>&ldquo;Adam responded quickly, and was - great communicator, and he made time the same morning I called!&rdquo;</blockquote><figcaption>Google review</figcaption></figure>
+      <figure class="review"><blockquote>&ldquo;Having a mobile mechanic come to us was incredibly convenient, and the work was done professionally.&rdquo;</blockquote><figcaption>Google review</figcaption></figure>
+      <figure class="review"><blockquote>&ldquo;He fixed the issue within 20 minutes, a job that most mechanics just didn&#x27;t want to touch.&rdquo;</blockquote><figcaption>Google review</figcaption></figure>
+      </div>
+      <a class="reviews-link" href="https://www.google.com/maps/search/?api=1&query=A1%20Mobile%20Mechanic&query_place_id=ChIJezIc0ywIZ2kR79-VbKLWKEE" target="_blank" rel="noopener">Read all 24 reviews on Google</a>
+    </div>
+  </section>
+
+  <section id="book">
+    <div class="wrap booking">
+      <form class="form" id="book-form" novalidate>
+        <h2>Request a repair</h2>
+        <p class="form-note">Tell Adam about the car and he&#x27;ll call or text you back.</p>
+        <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-extra">Vehicle and problem</label><input id="f-extra" name="extra" placeholder="e.g. 2012 Civic, won&#x27;t start"></div>
+        <div class="field"><label for="f-service">Service</label><select id="f-service" name="service"><option>Diagnostics</option><option>Belts and batteries</option><option>Maintenance</option><option>Roadside help</option><option>Not sure yet</option></select></div>
+        <div class="field"><label for="f-day">Preferred day</label><input id="f-day" name="day" placeholder="e.g. Today if possible"></div>
+        <p class="form-error" id="form-error" role="alert"></p>
+        <button class="btn btn-primary" type="submit">Send by text</button>
+        <p class="form-note">This opens your texting app with the details filled in. Just hit send.</p>
+      </form>
+      <div class="info">
+        <div><h3>Service area</h3><p>Soquel, Santa Cruz, Capitola, Aptos and nearby. Based at 3030 Browns Ln, Soquel, CA 95073.</p></div>
+        <div><h3>Hours</h3><dl class="hours"><dt>Every day</dt><dd>8am–7pm</dd></dl></div>
+        <div><h3>Call or text</h3><p><a href="tel:+18314319803">(831) 431-9803</a></p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="year">2026</span> A1 Mobile Mechanic. Soquel, CA.</span>
+    <span>Site by Santa Cruz Webworks</span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('book-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var f = e.target, err = document.getElementById('form-error');
+  var name = f.name.value.trim();
+  if (!name) { err.textContent = 'Add your name so Adam knows who is texting.'; f.name.focus(); return; }
+  err.textContent = '';
+  var lines = ['Hi Adam, this is ' + name + '.', 'Service: ' + f.service.value];
+  if (f.extra && f.extra.value.trim()) lines.push('Vehicle and problem: ' + f.extra.value.trim());
+  if (f.day.value.trim()) lines.push('Preferred day: ' + f.day.value.trim());
+  window.location.href = 'sms:+18314319803?&body=' + encodeURIComponent(lines.join('\n'));
+});
+</script>
+</body>
+</html>
